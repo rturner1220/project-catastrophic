@@ -1,20 +1,50 @@
-* {
-  box-sizing: border-box;
+body {
+  background: lightgray;
 }
 
-body {
-  background: lightgray
+.marketing-site-content-section {
+  box-sizing: border-box;
 }
 
 .hero-body {
   text-align: center;
 }
 
+#fact-box {
+  width: 100%;
+  border: 1px solid #888;
+  flex: 1;
+  background: url("../images/cat-background.png");
+}
+
+.background-overlay {
+  background-color: rgba(64,64,64,.8);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+#fact-box p {
+  text-align: center;
+  font-size: 2rem;
+}
+
+figure.image {
+  border: 1px solid #888;
+}
+
 .notification.is-info {
   background-color: #aeb3c7;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .button.is-link {
   padding: 20px;
-  margin-bottom: 20px;
+  margin: 20px 0;
+  width: 100%;
 }
