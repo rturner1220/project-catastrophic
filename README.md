@@ -1,14 +1,35 @@
 # CATastrophic
 
-As A cat enthusiast 
-I WOULD like to create an app all about cats!
-So That users can veiw adorable picturs while leanring neat facts!
-
-                        or
-
-
-As The owner of an animal rescue.
-I Would like to develope an app for clients to view rescues.
-To Increase chances of rescues finding good homes.
-
 Enjoy this website all about cats!
+
+## User Story:
+* AS A cat enthusiast...
+* I WOULD like a website all about cats...
+* WHERE I can view adorable cat pictures while learning awesome cat facts!
+
+## Features:
+* Click the button to display cat facts and the button to display cat images
+* Start typing a cat subtitle to include with your image. The input field will autocomplete available tags for your use.
+
+## Built With:
+* HTML
+* CSS
+* Bulma Framework
+* JavaScript
+* CATAAS API (https://cataas.com)
+* Cat-Fact API (https://cat-fact.herokuapp.com)
+
+## Future Enhancements:
+
+## Website:
+
+
+## Contributions:
+* Zachary Pawloski 
+* Rosa Turner
+* Dean Bishop
+* Betsy Griffith
+* Austin Davis
+
+## Deployed Site Screenshot:
+![screenshot of deployed site]()
