@@ -6,6 +6,10 @@ body {
   background: lightgray
 }
 
+.hero {
+  background-color: #55AD99;
+}
+
 .hero-body {
   text-align: center;
 }
@@ -17,4 +21,20 @@ body {
 .button.is-link {
   padding: 20px;
   margin-bottom: 20px;
+}
+
+.cat-image-caption {
+  text-align: center;
+  color: black;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  font-size: 16pt;
+}
+
+.cat-image-caption input {
+  border: 2px solid black;
+}
+
+.footer {
+  background-color: #55AD99;
 }
