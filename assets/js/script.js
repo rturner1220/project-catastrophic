@@ -39,7 +39,6 @@ var catTags = "https://cataas.com/api/tags"
             //function to add data to the autocomplete input field
             $(function() {
                 var availableTags = data
-                console.log(data);
                 $( "#tags" ).autocomplete({
                     source: availableTags
                 });
