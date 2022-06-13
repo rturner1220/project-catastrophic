@@ -13,49 +13,20 @@ var catTags = "https://cataas.com/api/tags"
     fetch(catTags)
     .then(function(response){
     response.json().then(function(data){
-        // console.log(data[1]);
         for(i = 0; i < data.length; i++){
-            // console.log(data[i]);
+            //function to add data to the autocomplete input field
             $(function() {
-                var availableTags = [data]
+                var availableTags = data
+                console.log(data);
                 $( "#tags" ).autocomplete({
                     source: availableTags
                 });
             })
+            //need to append the chosen item to the page
         }
     })
 })
 
-//adding tags to the autocomplete field
-// $( function() {
-//     var availableTags = [
-//       "#Christmas Cat",
-//       "Curious",
-//       "Asp",
-//       "BASIC",
-//       "C",
-//       "C++",
-//       "Clojure",
-//       "COBOL",
-//       "ColdFusion",
-//       "Erlang",
-//       "Fortran",
-//       "Groovy",
-//       "Haskell",
-//       "Java",
-//       "JavaScript",
-//       "Lisp",
-//       "Perl",
-//       "PHP",
-//       "Python",
-//       "Ruby",
-//       "Scala",
-//       "Scheme"
-//     ];
-//     $( "#tags" ).autocomplete({
-//       source: availableTags
-//     });
-//   } );
 
 
 
