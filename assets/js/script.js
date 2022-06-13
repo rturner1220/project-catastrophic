@@ -6,5 +6,3 @@ function buttonTest(){
     console.log("is this working?");
 }
 pictureButton.addEventListener( "click" , buttonTest ); 
-  14  
-index.html
