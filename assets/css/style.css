@@ -48,3 +48,10 @@ figure.image {
   margin: 20px 0;
   width: 100%;
 }
+
+.cat-image-caption {
+  text-align: center;
+  color: black;
+  padding: 15px 50px 5px 800px;
+  font-size: 16pt;
+}
