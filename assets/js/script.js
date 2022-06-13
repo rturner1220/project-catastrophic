@@ -1,6 +1,7 @@
-//variable for placing the cat image API into the html
+//variables
 var pictureButton = document.getElementById("pictureButton");
 var factButton = document.getElementById("factButton");
+var captionEl = [];
 
 function buttonTest(){
     console.log("is this working?");
