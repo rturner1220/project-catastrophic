@@ -11,6 +11,7 @@ function saveCaption(){
         return false;
     }
     addCaption(caption)
+    displayCaption();
 };
 
 function addCaption(caption){
@@ -18,12 +19,12 @@ function addCaption(caption){
 }
 
 // //display the caption on the page
-// function displayCaption(){
-//     caption = JSON.parse(localStorage.getItem("caption"));
-//         var displayTag = document.createElement("li");
-//         displayTag.innerHTML = caption;
-//         captionEl.appendChild(displayTag);
-// }
+function displayCaption(){
+    caption = JSON.parse(localStorage.getItem("caption"));
+    var displayTag = document.createElement("li");
+    displayTag.innerHTML = caption;
+    captionEl.appendChild(displayTag);
+};
 
 //function to fetch a cat fact
 function getCatFact(){
@@ -64,6 +65,7 @@ $("#pictureButton").click(function(){
 $("#caption-button").click(function(){
     saveCaption();
  });
+
 
 //fetching the cat image API "CATAAS"
 // var catTags = "https://cataas.com/api/tags"
