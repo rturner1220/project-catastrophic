@@ -27,7 +27,6 @@ Enjoy this website all about cats!
 ## Contributions:
 * Zachary Pawloski 
 * Rosa Turner
-* Dean Bishop
 * Betsy Griffith
 * Austin Davis
 
