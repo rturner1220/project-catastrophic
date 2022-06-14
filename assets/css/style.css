@@ -56,6 +56,13 @@ figure.image {
   font-size: 16pt;
 }
 
+.cat-caption {
+  list-style: none;
+  text-align: center;
+  color: black;
+  font-size: 20pt;
+}
+
 .footer {
   background-color: rgb(94, 206, 179);
 }

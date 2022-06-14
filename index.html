@@ -21,12 +21,12 @@
     </div>
   </header>
   <article class="hero is-small">
-    <form class="cat-image-caption ui-widget field has-addons">
+    <form class="cat-image-caption ui-widget field has-addons" id="caption-form">
       <div class="control">
-        <input class="input is-primary is-normal" type="text" name="" id="tags" placeholder="Start typing to find a tag!">
+        <input class="input is-primary" type="text" name="" id="tags" placeholder="Start typing to add a caption!">
       </div>
       <div class="control">
-        <a class="button is-primary">Add Caption!</a>
+        <a class="button is-primary" id="caption-button">Add Caption!</a>
       </div>
     </form>
   </article>
@@ -43,6 +43,9 @@
     </article>
 
     <article class="tile is-child notification is-info">
+      <div>
+        <ul class="cat-caption"></ul>
+      </div>
       <figure class="image is-4by3">
         <img id="catPic" src="https://images.unsplash.com/photo-1559235038-1b0fadf76f78?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="" />
       </figure>
