@@ -63,6 +63,8 @@ figure.image {
   font-size: 20pt;
 }
 
-.footer {
+.bottom {
   background-color: rgb(94, 206, 179);
+  padding-bottom: 15px;
+  padding-top: 10px;
 }
