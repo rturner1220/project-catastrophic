@@ -1,7 +1,7 @@
 //variables
 var inputValue = document.querySelector("#tags");
 var caption = [];
-var captionEl = document.querySelector(".cat-caption");
+var captionEl = document.getElementById("cat-caption");
 
 
 //functions to save caption to local storage
@@ -20,10 +20,30 @@ function addCaption(caption){
 
 // //display the caption on the page
 function displayCaption(){
-    caption = JSON.parse(localStorage.getItem("caption"));
-    var displayTag = document.createElement("li");
-    displayTag.innerHTML = caption;
-    captionEl.appendChild(displayTag);
+    // test = JSON.parse(localStorage.getItem("caption"));
+    // caption.push(test);
+    // console.log(caption);
+        if (caption.length === 0){
+            console.log(caption[0])
+            test = JSON.parse(localStorage.getItem("caption"));
+            caption.push(test);
+            console.log(caption[0])
+        var displayTag = document.createElement("li");
+        displayTag.innerHTML = test;
+        captionEl.appendChild(displayTag);
+        } else {
+        removeCaption();
+        test = JSON.parse(localStorage.getItem("caption"));
+        caption.push(test);
+        console.log(caption[0])
+        var displayTag = document.createElement("li");
+        displayTag.innerHTML = test;
+        captionEl.appendChild(displayTag);
+        }
+};
+
+function removeCaption() {
+    captionEl.removeChild(captionEl.lastChild)
 };
 
 //function to fetch a cat fact
@@ -67,7 +87,7 @@ $("#caption-button").click(function(){
  });
 
 
-//fetching the cat image API "CATAAS"
+// fetching the cat image API "CATAAS"
 // var catTags = "https://cataas.com/api/tags"
 //     fetch(catTags)
 //     .then(function(response){

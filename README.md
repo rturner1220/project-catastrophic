@@ -9,7 +9,7 @@ Enjoy this website all about cats!
 
 ## Features:
 * Click the button to display cat facts and the button to display cat images
-* Start typing a cat subtitle to include with your image. The input field will autocomplete available tags for your use.
+* Use the input field to add a caption to the cat image!
 
 ## Built With:
 * HTML
