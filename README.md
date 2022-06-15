@@ -19,9 +19,8 @@ Enjoy this website all about cats!
 * CATAAS API (https://cataas.com)
 * Cat-Fact API (https://cat-fact.herokuapp.com)
 
-## Future Enhancements:
-
 ## Website:
+https://hollenbebe08.github.io/project-catastrophic/
 
 
 ## Contributions:
@@ -30,5 +29,11 @@ Enjoy this website all about cats!
 * Betsy Griffith
 * Austin Davis
 
+## Future Enhancements:
+* Search for cat captions with API/autocomplete tags
+* Append the chosen caption to the cat image
+* Further user interactivity allowing users to create accounts and share and/or save cat images and facts
+
+
 ## Deployed Site Screenshot:
-![screenshot of deployed site]()
+![screenshot of deployed site](./assets/images/deploy-screenshot.png)
