@@ -87,24 +87,6 @@ $("#caption-button").click(function(){
  });
 
 
-// fetching the cat image API "CATAAS"
-// var catTags = "https://cataas.com/api/tags"
-//     fetch(catTags)
-//     .then(function(response){
-//     response.json().then(function(data){
-//         console.log(data)
-//         for(i = 0; i < data.length; i++){
-//             //function to add data to the autocomplete input field
-//             $(function() {
-//                 var availableTags = data
-//                 $( "#tags" ).autocomplete({
-//                     source: availableTags
-//                 });
-//             })
-//         }
-//     })
-// })
-
 
 
 
