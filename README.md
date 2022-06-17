@@ -20,7 +20,7 @@ Enjoy this website all about cats!
 * Cat-Fact API (https://cat-fact.herokuapp.com)
 
 ## Website:
-https://hollenbebe08.github.io/project-catastrophic/
+https://github.com/rturner1220/project-catastrophic
 
 
 ## Contributions:
@@ -37,3 +37,6 @@ https://hollenbebe08.github.io/project-catastrophic/
 
 ## Deployed Site Screenshot:
 ![screenshot of deployed site](./assets/images/deploy-screenshot.png)
+
+## Project was added to my portfolio
+![rt-portfolio](https://user-images.githubusercontent.com/101642385/174204508-e2ea5402-ef34-4353-956a-30098a916b39.png)
